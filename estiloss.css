@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border: 10px solid #ccc; /* cor e largura da borda */
+    box-sizing: border-box; /* faz com que a borda seja parte do tamanho total do contêiner */
+}
+
+.image-wrapper img {
+    display: block; /* para remover espaços extras ao redor da imagem */
+    max-width: 100%; /* garante que a imagem não ultrapasse a largura do contêiner */
+}

@@ -1,0 +1,34 @@
+body{
+  
+  background-color: #e3d7d7; /* Defina a cor de fundo desejada aqui */
+ 
+
+}
+
+h1 {
+    color: #953456;
+    font-size: 20px;
+  }  
+  .imagensCafe{
+    text-align: center;
+    border: 10px solid #a63a3a;
+    display: inline-block;
+    
+    
+  }
+ 
+
+  .image-container{
+    display: flex;/* alinhar as imagens lado a lado*/
+    justify-content: center;/*centralize horizontalmente*/
+  }
+
+  
+      /* Estilos para cada imagem */
+      .image-container img {
+        width: 300px; /* Defina a largura desejada para as imagens */
+        margin-right: 20px; /* Adicione um espaço entre as imagens (opcional) */
+        margin-top: 20px; /* adiciona espaco entre o paragrafo de cima*/
+        border: 10px solid #a63a3a; /* largura da borda e cor */
+    }
+    
